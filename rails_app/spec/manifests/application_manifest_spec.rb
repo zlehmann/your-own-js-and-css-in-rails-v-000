@@ -6,6 +6,6 @@ RSpec.describe do
   end
 
   it "should require the hides file in the application JS manifest" do
-    expect(File.read("app/assets/javascripts/application.js")).to include("//= require hides")
+    expect(File.read("app/assets/javascripts/application.js")).to include("//= require hide")
   end
 end
