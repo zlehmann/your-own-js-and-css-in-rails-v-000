@@ -6,11 +6,20 @@
 2. Write your own JS and integrate it into the asset pipeline and use it in views.
 
 ## Objectives
+Located in this repository is a simple Rails application. Your goal is to create your own JS and CSS and include it into the application. You can run the Capybara spec when you are finished to test your solution.
 
-We just want to test a student's ability to define some JS functions and bind them to dom elements and execute them.
+First add the following JS:
 
-I'd test for this by basically trying to javascript.execute from a capybara test that asserts that there is no error of the function did what it wanted. Not sure of a perfect example for this but like if there was a "Hide" link that added display none I'd manually have capybara click on that link and then introspect on the visibility or CSS property. If you can check if a function is defined that'd workt oo.
+- In `/app/assets/javascripts/` create the file `hide.js`
+- Create the function `hideWhenClicked` that hides the element that was clicked.
+  - Make sure to bind to `#hide_this`
+- Add `hide.js` to your JS manifest.
 
-Same for CSS - get them to write some classes and styles and then write tests that ensure those classes and styles are applied to DOM and the DOM has the correct styling.
+Next add the following CSS:
+
+- In `/app/assets/stylesheets/` create the file `links.css`
+- Create a CSS class called `.error` that changes the color of the text to red. Add this CSS class to the link on the root page.
+- Create another CSS class called `.cool-background` that makes the background `grey`. Add this CSS class to the `<body>` tag on the application layout.
+- Add `links.css` to your CSS manifest.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/your-own-js-and-css-in-rails' title='Your Own Js And Css In Rails'>Your Own Js And Css In Rails</a> on Learn.co and start learning to code for free.</p>
