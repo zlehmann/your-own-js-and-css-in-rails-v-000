@@ -22,4 +22,10 @@ Next add the following CSS:
 - Create another CSS class called `.cool-background` that makes the background `grey`. Add this CSS class to the `<body>` tag on the application layout.
 - Add `links.css` to your CSS manifest.
 
+## PhantomJS Errors
+
+If you receive an error stating that `phantomjs` can't be found on your system, install it with:
+
+`brew install phantomjs`
+
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/your-own-js-and-css-in-rails' title='Your Own Js And Css In Rails'>Your Own Js And Css In Rails</a> on Learn.co and start learning to code for free.</p>
