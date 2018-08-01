@@ -24,8 +24,10 @@ Next add the following CSS:
 
 ## PhantomJS Errors
 
-If you receive an error stating that `phantomjs` can't be found on your system, install it with:
+If you receive this error:
 
-`brew install phantomjs`
+`Could not find an executable ["phantomjs"] on your path.`
+
+Install it with: `brew install phantomjs`
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/your-own-js-and-css-in-rails' title='Your Own Js And Css In Rails'>Your Own Js And Css In Rails</a> on Learn.co and start learning to code for free.</p>
